@@ -3,7 +3,6 @@ package basics;
 public class assignment1 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		System.out.println(add(4));
 		System.out.println(factorial(4));
 		int[] a = {1, 2, 3};
@@ -13,6 +12,7 @@ public class assignment1 {
 
 	}
 	
+	// Add all the numbers from 1 to n
 	public static int add (int n) {
 		if (n==1) {
 			return 1;
@@ -21,6 +21,7 @@ public class assignment1 {
 		return n + add(n-1);
 	}
 	
+	// Find nth factorial
 	public static int factorial (int n) {
 		if (n==0) {
 			return 1;
@@ -29,6 +30,7 @@ public class assignment1 {
 		return n * factorial(n-1);
 	}
 	
+	// Find the min value in an array
 	public static int min(int[] array) {
 		int min = array[0];
 		for (int i = 0; i < array.length; i ++) {
@@ -41,6 +43,7 @@ public class assignment1 {
 		
 	}
 	
+	// Find the avg value of the elements in an array
 	public static int avg(int[] array) {
 		int sum = 0;
 		for (int i = 0; i < array.length; i ++) {
@@ -51,6 +54,7 @@ public class assignment1 {
 		
 	}
 	
+	// Find the max value in an array
 	public static int max(int[] array) {
 		int max = array[0];
 		for (int i = 0; i < array.length; i ++) {

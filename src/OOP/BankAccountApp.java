@@ -3,7 +3,9 @@ package OOP;
 public class BankAccountApp {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// Creating a new bank account
+		
+		// Instantiate a bank account object
 		BankAccount num1 = new BankAccount();
 		num1.deposit(100);
 		num1.deposit(200);

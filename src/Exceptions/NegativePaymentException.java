@@ -1,6 +1,7 @@
 package Exceptions;
 
 public class NegativePaymentException extends Exception{
+	// Creating a negative payment exception
 	
 	double payment;
 	public NegativePaymentException(double payment) {

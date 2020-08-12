@@ -1,6 +1,7 @@
 package basics;
 
 public class Days {
+	// Working with switch-blocks
 
 	public static void main(String[] args) {
 		String dayofweek = "Monday";

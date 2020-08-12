@@ -3,11 +3,11 @@ package basics;
 public class cities {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// Working with arrays
 		String[] cities = {"NY", "SFO", "MI", "DA"};
 		System.out.println(cities[0]); 
 
-		
+		// Initialize the array
 		String[] states = new String[5];
 		states[0] = "CA";
 		states[1] = "OH";
@@ -15,6 +15,7 @@ public class cities {
 		states[3] = "TX";
 		states[4] = "UT";
 		
+		// Use a do while loop to print the elements in an array
 		int i = 0;
 		do
 		{
@@ -24,6 +25,7 @@ public class cities {
 		
 		System.out.println();
 		
+		// Use a while loop to find an element in the array
 		int j = 0;
 		boolean statefound = false;
 		while (!statefound) {
@@ -37,6 +39,7 @@ public class cities {
 			j ++;
 		}
 		
+		// Use a for loop to print the elements in an array
 		System.out.println();
 		for (int x = 0; x < 5; x ++) {
 			System.out.println(states[x]);

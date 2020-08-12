@@ -1,5 +1,7 @@
 package OOP;
 
+// Working with classes
+
 class Person {
 	String name;
 	String email;
@@ -19,7 +21,7 @@ class Person {
 public class demo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// Attributes
 		Person person1 = new Person();
 		person1.name = "Jo";
 		person1.email = "k";

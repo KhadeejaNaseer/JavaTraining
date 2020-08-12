@@ -3,6 +3,7 @@ package basics;
 public class weather {
 
 	public static void main(String[] args) {
+		// Working with if statements
 		int temp = 85;
 		String sunCondition = "sunny";
 		

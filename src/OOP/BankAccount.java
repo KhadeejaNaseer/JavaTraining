@@ -3,7 +3,9 @@ package OOP;
 
 
 public class BankAccount implements IRate {
-
+	// Bank Account class 
+	
+	// Define variables
 	private String AN;
 	private static String RN = "0";
 	String name;
@@ -20,10 +22,12 @@ public class BankAccount implements IRate {
 	String AT;
 	double balance;
 	
+	// Constructor
 	BankAccount() {
 		System.out.println("New account created");
 	}
 	
+	// Overloading: call method name with different arguments
 	BankAccount(String AT) {
 		System.out.println(AT);
 	}

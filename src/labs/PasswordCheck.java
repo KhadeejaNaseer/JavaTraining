@@ -9,7 +9,7 @@ import java.io.IOException;
 public class PasswordCheck {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// Password app that determines if a password is valid
 		
 		//Read file
 		String filename = "C:\\Users\\kjnas\\OneDrive\\Desktop\\Files\\passwords.txt";

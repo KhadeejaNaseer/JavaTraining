@@ -3,7 +3,7 @@ package labs;
 public class BankAccountApp {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// Create a bank account
 		BankAccount a1 = new BankAccount("777", 100);
 		a1.setName("Jim");
 		a1.MakeDeposit(100);
@@ -68,7 +68,7 @@ class BankAccount implements IInterest{
 
 	@Override
 	public void accrue() {
-		// TODO Auto-generated method stub
+		
 		balance = balance * (1+rate/100);
 		showBalance();
 	}

@@ -9,7 +9,7 @@ import java.io.IOException;
 public class PhoneNumberApp {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// Determines if a phonenumber is valid
 		String filename = "C:\\Users\\kjnas\\OneDrive\\Desktop\\Files\\phonenum.txt";
 		File file = new File(filename);
 		String[] phonenums = new String[5];
@@ -25,10 +25,10 @@ public class PhoneNumberApp {
 			br.close();
 		}
 			catch (FileNotFoundException e) {
-				// TODO Auto-generated catch block
+				
 				System.out.println("ERROR");
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
+				
 				System.out.println("ERROR");
 			}
 		
@@ -62,7 +62,7 @@ public class PhoneNumberApp {
 				System.out.println("ERROR");
 				System.out.println(e.toString());
 			} catch (EmergencyException e) {
-				// TODO Auto-generated catch block
+				
 				System.out.println("ERROR");
 				System.out.println(e.toString());
 			}

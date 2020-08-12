@@ -3,12 +3,13 @@ package basics;
 public class FibApp {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// Working with recursion
 		System.out.println(fib(3));
 		
 
 	}
 	
+	// Calculating the fibonacci number at the nth position
 	public static int fib(int n) {
 		if (n==0) {
 			return 0;

@@ -4,7 +4,7 @@ public class Numberscalc {
 
 	public static void main(String[] args) {
 		printname();
-		// TODO Auto-generated method stub
+		// Working with functions
 		int numa = 10;
 		int numb = 20;
 		addNumbers(numa, numb);
@@ -12,6 +12,7 @@ public class Numberscalc {
 
 	}
 	
+	// Function that does not return any value
 	static void printname() {
 		System.out.println("name");
 	}
@@ -21,6 +22,7 @@ public class Numberscalc {
 		System.out.println(sum);
 	}
 	
+	// Function that returns an int value
 	static int multiplyingnum(int numa, int numb) {
 		int prod = numa * numb;
 		addNumbers(prod, prod);

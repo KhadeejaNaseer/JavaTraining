@@ -3,7 +3,7 @@ package Exceptions;
 public class CommonException {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// Working with general exceptions
 		int a = 5;
 		int b = 0;
 		try {

@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class PaymentsApp {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// PaymentApp which keeps asking the user to enter a payment until it is a non-negative number
 		double payment = 0;
 		boolean positivepayment = true;
 		

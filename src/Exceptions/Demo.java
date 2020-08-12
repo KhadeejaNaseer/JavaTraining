@@ -3,7 +3,7 @@ package Exceptions;
 public class Demo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// Raises an exception
 		int a = 5;
 		int b = 0;
 		doMath(5,0);

@@ -7,7 +7,7 @@ import java.io.IOException;
 public class Write {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// Writes a file
 		
 		String filename = "C:\\Users\\kjnas\\OneDrive\\Desktop\\Files\\filetowrite.txt";
 		String message = "I'm writing this message to a file";
@@ -21,7 +21,7 @@ public class Write {
 			fw.write(message);
 			fw.close();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+		
 			System.out.println("Could not write");
 		} finally {
 			
